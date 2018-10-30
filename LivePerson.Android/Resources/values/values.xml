@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="lp_progress_bar_image">@drawable/android_lp_progress_bar_image</drawable>
+    <drawable name="conversation_background">#ffffff</drawable>
+
+    <string name="lp_google_maps_key"/>
+</resources>

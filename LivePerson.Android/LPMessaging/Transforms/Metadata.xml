@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <remove-node path="/api/package[@name='com.liveperson.api.response.events']/class[@name='ExConversationChangeNotification']" />
+    <remove-node path="/api/package[@name='com.liveperson.api.request.message']/class[@name='FilePublishMessage']" />
+    <remove-node path="/api/package[@name='com.liveperson.api.request']/class[@name='PublishEvent']/method[@name='getMessageType' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.liveperson.api.request.message']/class[@name='FormPublishMessage']" />
+    <remove-node path="/api/package[@name='com.liveperson.api.request.message']/class[@name='FormSubmissionPublishMessage']" />
+    <remove-node path="/api/package[@name='com.liveperson.api.request.message']/class[@name='JsonPublishMessage']" />
+    <remove-node path="/api/package[@name='com.liveperson.api.request.message']/class[@name='TextPublishMessage']" />
+    <remove-node path="/api/package[@name='com.liveperson.api.response.events']/class[@name='MessagingEventNotification']" />
+
+    <remove-node path="/api/package[@name='com.liveperson.api.request']/class[@name='GenerateUploadTokenRequest']" />
+
+    <remove-node path="/api/package[@name='com.liveperson.messaging.network.socket.requests']" />
+    <remove-node path="/api/package[@name='com.liveperson.messaging.network.socket']" />
+    <remove-node path="/api/package[@name='com.liveperson.messaging.commands.tasks']" />
+    <remove-node path="/api/package[@name='com.liveperson.api.request']" />
+
+    <remove-node path="/api/package[@name='com.liveperson.messaging.model']/class[@name='ConversationData']" />
+    
+
+    <attr path="/api/package[@name='com.liveperson.api.request']/class[@name='UpdateConversationField']/method[@name='getMessageType' and count(parameter)=0]" name="visibility">protected</attr>
+    
+</metadata>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <remove-node path="/api/package[@name='com.liveperson.infra.network.http.body']/class[@name='HttpImageRequestBody']/method[@name='get']" />
+    <remove-node path="/api/package[@name='com.liveperson.infra.network.http.body']/class[@name='HttpStringRequestBody']/method[@name='get']" />
+    <remove-node path="/api/package[@name='com.liveperson.infra.network.http.body']/class[@name='LPJSONArrayBody']/method[@name='get']" />
+    <remove-node path="/api/package[@name='com.liveperson.infra.network.http.body']/class[@name='LPJSONObjectBody']/method[@name='get']" />
+    <remove-node path="/api/package[@name='com.liveperson.infra.network.http.body']/class[@name='LPStringBody']/method[@name='get']" />
+
+    <attr path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='FilesTable']/field[@name='FILES_TABLE']" name="managedName">FilesTable1</attr>
+    <attr path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='MessagesTable']/field[@name='MESSAGES_TABLE']" name="managedName">MessagesTable1</attr>
+    <attr path="/api/package[@name='com.liveperson.infra.database.tables']/class[@name='UsersTable']/field[@name='USERS_TABLE']" name="managedName">UsersTable1</attr>
+
+    <remove-node path="/api/package[@name='com.liveperson.infra.utils']/class[@name='TextCrawler.GetCode']" />
+
+    <attr path="/api/package[@name='com.liveperson.infra.network.http']/class[@name='HttpHandler']" name="obfuscated">false</attr>
+
+    <attr path="/api/package[@name='com.liveperson.infra.network.http']/class[@name='HttpHandler']" name="obfuscated">false</attr>
+
+    <remove-node path="/api/package[@name='com.liveperson.infra']/interface[@name='IConfiguration']" />
+    <remove-node path="/api/package[@name='com.liveperson.infra.network.http.body']/class[@name='LPJSONArrayBody']" />
+    <remove-node path="/api/package[@name='com.liveperson.infra.network.http.body']/class[@name='LPJSONObjectBody']" />
+    <remove-node path="/api/package[@name='com.liveperson.infra.network.http.body']/class[@name='LPStringBody']" />
+
+    <remove-node path="/api/package[@name='com.liveperson.infra.statemachine']/class[@name='BaseStateMachine']" />
+</metadata>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+
+    <add-node path="/api/package[@name='com.liveperson.messaging.sdk.api']">
+        <class abstract="false" deprecated="not deprecated" final="true" name="LivePerson" static="false" visibility="public" extends="java.lang.Object">
+            <method abstract="false" deprecated="not deprecated" final="false" name="initialize" native="false" return="void" static="true" synchronized="false" visibility="public">
+                <parameter name="context" type="android.content.Context"/>
+                <parameter name="initProperties" type="com.liveperson.infra.InitLivePersonProperties"/>
+            </method> 
+        </class>
+    </add-node>
+        
+</metadata>

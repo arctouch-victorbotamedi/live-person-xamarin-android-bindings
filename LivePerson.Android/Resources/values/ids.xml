@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+   <item type="id" name="lpmessaging_ui_form_container" />
+   <item type="id" name="lpmessaging_ui_small_url_container" />
+   <item type="id" name="lpmessaging_ui_url_container" />
+   <item type="id" name="lpui_agent_structured_content_container" />
+</resources>
